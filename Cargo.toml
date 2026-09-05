@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = ["parser", "db"]
+
+[package]
+name = "pcapql"
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+parser = { path = "parser" }
+db = { path = "db" }
